@@ -1,4 +1,5 @@
-![Screenshot (141)](https://github.com/user-attachments/assets/d058de59-0fac-458d-9e4e-6606164c8a84)Villa of Summer 🌴☀️
+![Screenshot (141)](https://github.com/user-attachments/assets/3c2fa615-bca5-4d95-b384-d449cf12e31e)
+Villa of Summer 🌴☀️
 Welcome to Villa of Summer, a beautiful and serene web project designed to capture the essence of summer vibes. This project showcases stunning visuals, interactive elements, and a user-friendly interface perfect for any summer-themed web experience.
 
 🌟 Features
@@ -8,7 +9,7 @@ Summer Vibes: A fresh and vibrant design inspired by sunny beaches and tropical 
 🛠️ Technologies Used
 Frontend:
 
-HTML5
-CSS3
-JavaScript
+HTML5,
+CSS3,
+JavaScript,
 React.js
