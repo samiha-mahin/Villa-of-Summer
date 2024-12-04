@@ -1,0 +1,131 @@
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.hero h2 {
+    margin-left: 4rem;
+    padding-bottom: 10px;
+}
+.search{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 2rem;
+    position: relative;
+    display: flex;
+    scrollbar-width: none;
+}
+
+.btn{
+    padding-left: 10rem;
+}
+.btn button{
+  width: auto;
+  height: 70%;
+  border: 2px solid rgb(163, 195, 193);
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  animation: left-right 30s infinite;
+  
+}
+.btn button:hover{
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    border: none;
+    color:#1F536B;
+    border-radius: 10px;
+}
+.tab{
+    height: 80%;
+    display: flex;
+    /* border-right: 2px solid black; */
+    background-color: white;
+    width:800px;
+    border-radius: 15px;
+    border: 2px solid #1f536b40;
+    justify-content: space-evenly;
+    color: rgb(86, 85, 85);
+    align-items: center;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.185);
+
+}
+.search1{
+    border-right: 2px solid #1f536b40;
+    padding-right: 20px;
+    display: flex;
+    gap:5px;
+}
+.search1 form {
+    width: 100%; 
+    display: flex;
+    position: relative; 
+  }
+  
+  .search1 form input {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1rem;
+    outline: none;
+    border: none; 
+  }
+  .search form input:hover{
+    background-color: aliceblue;
+  }
+.contact{
+    border-right: 2px solid #1f536b40;
+    padding-right: 50px;
+}
+.hero1{
+    display: flex;
+    width: full;
+}
+.globe{
+     padding-left: 10rem;
+     padding-bottom: 40px;
+     animation: up_down1 30s infinite;
+}
+.globe img{
+    height: 420px;
+    width: 420px;
+    animation: rotation 50s infinite;
+}
+@keyframes rotation {
+   from {
+    -webkit-transform: rotate(0 deg);
+   }
+   to {
+    -webkit-transform: rotate(360deg);
+   }
+}
+@keyframes up_down1 {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-60px);
+    }
+    50%{
+        transform: translateX(-40px);
+    }
+    75%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes left-right {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-40px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

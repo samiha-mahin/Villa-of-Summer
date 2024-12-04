@@ -1,0 +1,25 @@
+.container {
+    padding: 2rem;
+    display: flex;
+}
+.logo img{
+    height: 6rem;
+    padding-left: 15rem;
+}
+.cloud {
+    padding-left: 25rem;
+    display: flex;
+    gap: 4rem;
+    animation: up_down 3s infinite;
+}
+@keyframes up_down {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

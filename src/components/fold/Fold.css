@@ -1,0 +1,21 @@
+.fold{
+    width: 200px;
+    height: 35px;
+    margin-left: 4rem;
+}
+.fold img{
+    width: 200px;
+    height: 35px;
+    animation: left-right 4s;
+}
+@keyframes left-right {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
