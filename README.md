@@ -1,8 +1,14 @@
-# React + Vite
+![Screenshot (141)](https://github.com/user-attachments/assets/d058de59-0fac-458d-9e4e-6606164c8a84)Villa of Summer 🌴☀️
+Welcome to Villa of Summer, a beautiful and serene web project designed to capture the essence of summer vibes. This project showcases stunning visuals, interactive elements, and a user-friendly interface perfect for any summer-themed web experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌟 Features
+Interactive Elements: Engaging animations and transitions for an immersive user experience.
+Modern UI/UX: Minimalist and aesthetically pleasing layout with a focus on usability.
+Summer Vibes: A fresh and vibrant design inspired by sunny beaches and tropical getaways.
+🛠️ Technologies Used
+Frontend:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HTML5
+CSS3
+JavaScript
+React.js
